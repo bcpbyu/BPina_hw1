@@ -1,13 +1,24 @@
+/* 
+Gives everything a border so they don't touch
+*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*
+Turns the page to white 
+*/
 body {
     background-color: #d9dcd6;
 }
 
+/* 
+Changes anything with the header class 
+to have a bigger border, changes the font, have a backround color of the blue
+and be white text
+*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +26,25 @@ body {
     color: #ffffff;
 }
 
+/* 
+Changes the first header to have a
+bigger font
+*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* 
+changes the seo class to white
+*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* 
+gives a bigger border on the bottom and left and changes font and size
+*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +53,40 @@ body {
     font-size: 20px;
 }
 
+/*  
+Changes the formatting of the list,
+the three phrases in the top right
+*/
 .header div ul {
     list-style-type: none;
 }
 
+/* 
+gives a bigger border on the right
+*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* 
+changes anything with the a tag to white
+*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* 
+changes anything with the p tag to 16
+*/
 p {
     font-size: 16px;
 }
 
+/* 
+puts the image in and changes in to a bigger size
+*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +96,35 @@ p {
     background-position: center;
 }
 
+/* 
+gives a bigger border on the left
+*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* 
+gives a bigger border on the right
+*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* 
+gives a bigger border on the right and has it be wider
+*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* 
+gives a bigger border on the left and all around and has it be taller and skinnier
+also sets the font and backround color of the text
+*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,54 +136,89 @@ p {
     background-color: #2589bd;
 }
 
+/* 
+gives the benifit-lead class a bigger border on the top
+and sets the font color
+*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* 
+gives the benifit-brand class a bigger border on the top
+and sets the font color
+*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* 
+gives the benifit-cost class a bigger border on the top
+and sets the font color
+*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* 
+gives the benifit-lead class a bigger border on the top
+*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* 
+gives the benifit-brand class a bigger border on the top
+*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* 
+gives the benifit-cost class a bigger border on the top
+*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* 
+gives the benifit-lead class a set width
+*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* 
+gives the benifit-brand class a set width
+*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* 
+gives the benifit-cost class a set width
+*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* 
+gives the search-engine-optimization class a bigger border on
+the top and all around and a set heigh and set the font, backround color,
+and text color
+*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +228,11 @@ p {
     color: #ffffff;
 }
 
+/* 
+gives the online-reputation-management class a bigger border on
+the top and all around and a set heigh and set the font, backround color,
+and text color
+*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +242,11 @@ p {
     color: #ffffff;
 }
 
+/* 
+gives the social-media-marketing class a bigger border on
+the top and all around and a set heigh and set the font, backround color,
+and text color
+*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +256,58 @@ p {
     color: #ffffff;
 }
 
+/* 
+gives the search-engine-optimization class a set height
+*/
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* 
+gives the online-reputation-management class a set height
+*/
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* 
+gives the social-media-marketing class a set height
+*/
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* 
+gives a bigger border on the top and set font size to 36
+to the search-engine-optimization class
+*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* 
+gives a bigger border on the top and set font size to 36
+to the online-reputation-management class
+*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* 
+gives a bigger border on the top and set font size to 36
+to the social-media-marketing class
+*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* 
+Gives the footer class a bigger border and 
+sets the font and centers it on the page
+*/
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +315,9 @@ p {
     text-align: center;
 }
 
+/* 
+Sets the font of the footer class
+*/
 .footer h2 {
     font-size: 20px;
 }
